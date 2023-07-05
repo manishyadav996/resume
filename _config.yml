@@ -6,114 +6,132 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Manish Yadav
+title: DevOps Engineer | Site Reliability Engineer (SRE)
+email: manishyadav996@gmail.com
+phone: +91-9899990024
+linkedin_username: manishyadav92
 
 # Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+- title: LinkedIn
+  icon: fab fa-linkedin
+  url: https://www.linkedin.com/in/manishyadav92
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+about_content: |
+  With 9.7 years of experience working as a DevOps Engineer and Site Reliability Engineer (SRE), with a Bachelor's degree in Computer Science. I have a deep understanding of infra-as-code principles, DevOps tools, and open-source technologies. I have effectively used this knowledge to help design system capacity, automate and support IT infrastructure and application deployment processes, resulting in enhanced production services and high availability and scalability.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        title: Amazon Development Centre
+        sub_title: DevOps Engineer
+        caption: June 2021 – Nov 2022
+        description: |
+          Currently, I am responsible for creating and maintaining distributed, serverless, and scalable infrastructure for Amazon retail Website and Amazon payment gateway, leveraging Amazon Web Technologies' (AWS) containerization services (ECS, EKS, Fargate).
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        title: Maharishi Dayanand University
+        sub_title: Bachelor of Technology (Computer Science)
+        caption: 2008-2012
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Certifications
+    layout: list
+    content:
+      - layout: left
+        title: RedHat Certified Engineer (120-102-249)
+      - layout: right
+        title: AWS Solution Architect – Associate
+
+  - title: Tools and Technologies
+    layout: list
+    content:
+      - layout: left
+        title: DevOps Tools
+        description: AWS DevOps, GIT
+      - layout: right
+        title: Programming/Scripting
+        description: Bash/Shell scripting, Python
+      - layout: left
+        title: Container Technologies
+        description: Docker, Kubernetes
+      - layout: right
+        title: Serverless
+        description: AWS Lambda, Fargate, API Gateway, Step Functions, Amazon EventBridge
+      - layout: left
+        title: Configuration Management
+        description: Terraform, Ansible, AWS CloudFormation
+      - layout: right
+        title: Other DevOps Tools
+        description: Git/GitHub, Prometheus, Splunk, Spinnaker, CircleCI
+      - layout: left
+        title: Documentation Tools
+        description: Docusaurus, Jekyll
+
+  - title: Recent Project Experience
+    layout: list
+    content:
+      - layout: left
+        title: Multi-Region Cloud Architecture
+        description: |
+          Created a multi-region, highly available cloud architecture using Terraform, including disaster recovery.
+
+      - layout: right
+        title: Microservices-based Architecture
+        description: |
+          Developed reusable Terraform modules for deploying a microservices-based architectureon AWS.
+
+      - layout: left
+        title: Infrastructure Deployment
+        description: |
+          Administered and deployed infrastructure across multiple cloud providers, using Terraform Cloud for centralized remote state management and collaboration for scalability and maintainability.
+
+      - layout: right
+        title: Hybrid Cloud Infrastructure
+        description: |
+          Designed and implemented a hybrid cloud infrastructure that combined on-premises resources such as VPN connections, load balancers, and databases with cloud-based resources.
+
+      - layout: left
+        title: Blue-Green and Canary Deployments
+        description: |
+          Implemented blue-green and canary deployments for versioned applications with near-zero downtime.
+
+      - layout: right
+        title: Multi-Tier Web Server Infrastructure
+        description: |
+          Built a multi-tier web server infrastructure for a streaming platform.
+
+      - layout: left
+        title: AWS App2Container Workflow Automation
+        description: |
+          Automated AWS App2Container workflow using AWS SDK, Ansible, and Rundeck.
+
+      - layout: right
+        title: Amazon EKS Deployment
+        description: |
+          Fully automated Amazon EKS deployment with Ansible and Circle CI.
+
+      - layout: left
+        title: AWS Lambda REST API
+        description: |
+          Built REST APIs with AWS Lambda and integrated with ECS/EKS.
+
+      - layout: right
+        title: Service Now Integration
+        description: |
+          Wrote and built Service Now integration with AWS tools/Scripts using Python.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
